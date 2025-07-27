@@ -1,0 +1,226 @@
+<!DOCTYPE html>
+<html lang="es" class="scroll-smooth">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Conecta Fácil | Tu Independencia Digital Empieza Aquí</title>
+    
+    <!-- TailwindCSS desde CDN -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    
+    <!-- Google Fonts: Inter para el cuerpo y Poppins para el logo -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700;800&family=Poppins:wght@700&display=swap" rel="stylesheet">
+    
+    <!-- Pequeño estilo para aplicar la fuente y colores base -->
+    <style>
+        body {
+            font-family: 'Inter', sans-serif;
+        }
+        /* Colores personalizados para accesibilidad y marca */
+        .bg-primary { background-color: #3B82F6; } /* Azul vivo */
+        .bg-secondary { background-color: #F3F4F6; } /* Gris claro */
+        .text-primary { color: #3B82F6; }
+        .border-primary { border-color: #3B82F6; }
+        .hover\:bg-primary-dark:hover { background-color: #2563EB; }
+    </style>
+</head>
+<body class="bg-white text-gray-800">
+
+    <!-- =========== HEADER CON LOGO =========== -->
+    <header class="bg-white shadow-sm sticky top-0 z-50">
+        <nav class="container mx-auto px-6 py-3 flex justify-between items-center">
+            <a href="#" aria-label="Página de inicio de Conecta Fácil">
+                <!-- SVG del Logo Concepto 1 para el Header -->
+                <svg class="h-12 w-auto" viewBox="0 0 250 70" xmlns="http://www.w3.org/2000/svg">
+                  <g transform="translate(10, 5) scale(0.9)">
+                    <path d="M35,5 C25,5 15,15 15,25 C15,35 25,55 35,55 C45,55 55,35 55,25 C55,15 45,5 35,5 Z M35,10 C42,10 50,18 50,25 C50,32 42,45 35,50 C28,45 20,32 20,25 C20,18 28,10 35,10 Z" fill="#3B82F6"/>
+                    <path d="M30 20 Q35 15 40 20" stroke="#FBBF24" stroke-width="3" fill="none" stroke-linecap="round"/>
+                    <circle cx="28" cy="30" r="3" fill="#3B82F6"/>
+                    <circle cx="42" cy="30" r="3" fill="#3B82F6"/>
+                    <path d="M30 40 Q35 45 40 40" stroke="#3B82F6" stroke-width="2" fill="none" stroke-linecap="round"/>
+                  </g>
+                  <text x="75" y="45" font-family="Poppins, sans-serif" font-size="24" font-weight="700" fill="#1F2937">
+                    Conecta Fácil
+                  </text>
+                </svg>
+            </a>
+            <div>
+                <a href="#contacto" class="bg-primary text-white font-bold py-2 px-6 rounded-full hover:bg-primary-dark transition-colors duration-300">
+                    Únete ahora
+                </a>
+            </div>
+        </nav>
+    </header>
+
+    <main>
+        <!-- =========== HERO SECTION MEJORADO Y RESPONSIVE =========== -->
+        <section class="bg-secondary">
+            <div class="container mx-auto px-6 py-16 md:py-24">
+                <div class="grid grid-cols-1 md:grid-cols-2 gap-12 items-center">
+                    <!-- Columna de Texto -->
+                    <div class="text-center md:text-left">
+                        <h1 class="text-4xl md:text-5xl lg:text-6xl font-extrabold text-gray-900 leading-tight mb-4">
+                            La tecnología, por fin a tu alcance.
+                        </h1>
+                        <p class="text-lg md:text-xl text-gray-600 mb-8 max-w-xl mx-auto md:mx-0">
+                            Aprende a usar las apps y webs que necesitas. Sin miedo, a tu ritmo y con un guía inteligente que te acompaña.
+                        </p>
+                        <a href="#contacto" class="inline-block bg-primary text-white font-bold py-4 px-10 rounded-full text-lg hover:bg-primary-dark transition-transform duration-300 transform hover:scale-105">
+                            Quiero empezar gratis
+                        </a>
+                    </div>
+                    <!-- Columna de Imagen -->
+                    <div class="flex justify-center">
+                        <img src="https://inventiva.ar/wp-content/uploads/2023/03/Tecnologias-inclusivas-imagen-principal-1080x1080.jpg" 
+                             alt="Ilustración de tecnologías inclusivas mostrando un cerebro conectado a íconos de accesibilidad como una silla de ruedas, una lupa y un altavoz." 
+                             class="rounded-xl shadow-2xl w-full max-w-md h-auto">
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- =========== "CÓMO FUNCIONA" SECTION =========== -->
+        <section id="como-funciona" class="py-20">
+            <div class="container mx-auto px-6">
+                <div class="text-center mb-16">
+                    <h2 class="text-3xl md:text-4xl font-bold text-gray-900">Tu Acompañante Digital Inteligente</h2>
+                    <p class="text-lg text-gray-600 mt-4 max-w-3xl mx-auto">Conecta Fácil transforma el aprendizaje en una experiencia segura, personalizada y motivadora gracias a la Inteligencia Artificial.</p>
+                </div>
+                
+                <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
+                    <!-- Feature 1: Adaptación Dinámica -->
+                    <div class="bg-secondary p-6 rounded-xl text-center transition-transform hover:scale-105 duration-300">
+                        <div class="text-primary text-5xl mb-4">🎯</div>
+                        <h3 class="text-xl font-bold mb-2">Aprendizaje a tu medida</h3>
+                        <p class="text-gray-600">La IA adapta las lecciones a tu velocidad y estilo. Si necesitas repetir un paso, lo hacemos las veces que haga falta, ¡sin presiones!</p>
+                    </div>
+                    <!-- Feature 2: Simulación sin Riesgo -->
+                    <div class="bg-secondary p-6 rounded-xl text-center transition-transform hover:scale-105 duration-300">
+                        <div class="text-primary text-5xl mb-4">🛡️</div>
+                        <h3 class="text-xl font-bold mb-2">Practica en un entorno seguro</h3>
+                        <p class="text-gray-600">Entrena en réplicas de apps reales. Puedes explorar y cometer errores sin ningún riesgo. ¡Aquí no se rompe nada!</p>
+                    </div>
+                    <!-- Feature 3: Asistente Conversacional -->
+                    <div class="bg-secondary p-6 rounded-xl text-center transition-transform hover:scale-105 duration-300">
+                        <div class="text-primary text-5xl mb-4">💬</div>
+                        <h3 class="text-xl font-bold mb-2">Guía con voz paciente</h3>
+                        <p class="text-gray-600">Un asistente amable te habla y te guía paso a paso. Puedes preguntarle dudas y siempre te responderá con claridad y refuerzo positivo.</p>
+                    </div>
+                    <!-- Feature 4: Gamificación Inteligente -->
+                    <div class="bg-secondary p-6 rounded-xl text-center transition-transform hover:scale-105 duration-300">
+                        <div class="text-primary text-5xl mb-4">🏆</div>
+                        <h3 class="text-xl font-bold mb-2">Celebra tus logros</h3>
+                        <p class="text-gray-600">Gana medallas y recompensas por cada tarea completada. Convertimos el aprendizaje en un juego que te motiva a seguir adelante.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- =========== "PARA QUIÉN" SECTION =========== -->
+        <section id="publico" class="py-20 bg-secondary">
+            <div class="container mx-auto px-6 flex flex-col-reverse md:flex-row items-center gap-12">
+                <div class="md:w-1/2">
+                    <h2 class="text-3xl md:text-4xl font-bold text-gray-900 mb-6">Creado para romper barreras digitales</h2>
+                    <p class="text-lg text-gray-600 mb-6">Nuestra misión es que nadie se quede atrás. Conecta Fácil está diseñado especialmente para:</p>
+                    <ul class="space-y-4">
+                        <li class="flex items-start">
+                            <span class="text-primary font-bold text-2xl mr-3 mt-1">✓</span>
+                            <span><strong>Personas con discapacidad cognitiva</strong> que necesitan guías claras, visuales y estructuradas.</span>
+                        </li>
+                        <li class="flex items-start">
+                            <span class="text-primary font-bold text-2xl mr-3 mt-1">✓</span>
+                            <span><strong>Usuarios con baja visión</strong> que se benefician de la asistencia por voz y las opciones de accesibilidad visual.</span>
+                        </li>
+                        <li class="flex items-start">
+                             <span class="text-primary font-bold text-2xl mr-3 mt-1">✓</span>
+                            <span><strong>Adultos mayores</strong> que desean ganar autonomía y confianza en el mundo digital sin miedo a equivocarse.</span>
+                        </li>
+                        <li class="flex items-start">
+                            <span class="text-primary font-bold text-2xl mr-3 mt-1">✓</span>
+                            <span><strong>Personas neurodivergentes</strong> que prefieren entornos de aprendizaje predecibles, guiados y sin presión social.</span>
+                        </li>
+                    </ul>
+                </div>
+                <div class="md:w-1/2">
+                    <img src="https://www.novologistica.com/wp-content/uploads/2019/10/assstra1.jpg" 
+                         alt="Inclusión." 
+                         class="rounded-xl shadow-lg">
+                </div>
+            </div>
+        </section>
+
+        <!-- =========== CONTACT FORM (CTA) SECTION =========== -->
+        <section id="contacto" class="py-20 bg-white">
+            <div class="container mx-auto px-6">
+                <div class="bg-gray-800 text-white rounded-xl shadow-2xl p-8 md:p-12 max-w-3xl mx-auto">
+                    <div class="text-center mb-8">
+                        <h2 class="text-3xl md:text-4xl font-bold">Únete a la revolución de la inclusión digital</h2>
+                        <p class="text-lg text-gray-300 mt-4">Regístrate en nuestra lista de espera. Serás el primero en saber cuándo lanzamos y recibirás acceso prioritario y gratuito.</p>
+                    </div>
+                    
+                    <form action="https://api.web3forms.com/submit" method="POST">
+                        <input type="hidden" name="access_key" value="619ad5fc-fe9a-4fd0-814b-6c33f1d6d92e">
+                        <input type="hidden" name="subject" value="Nuevo registro en la lista de espera de Conecta Fácil">
+                        <input type="hidden" name="from_name" value="Landing Page Conecta Fácil">
+                        <input type="hidden" name="redirect" value="https://web3forms.com/success">
+
+                        <div class="space-y-6">
+                            <div>
+                                <label for="name" class="block text-lg font-semibold text-gray-300 mb-2">Tu nombre</label>
+                                <input type="text" id="name" name="name" required class="w-full px-4 py-3 bg-gray-700 border border-gray-600 rounded-lg focus:outline-none focus:ring-2 focus:ring-primary text-white" placeholder="Ej: Ana García">
+                            </div>
+                            <div>
+                                <label for="email" class="block text-lg font-semibold text-gray-300 mb-2">Tu e-mail de contacto</label>
+                                <input type="email" id="email" name="email" required class="w-full px-4 py-3 bg-gray-700 border border-gray-600 rounded-lg focus:outline-none focus:ring-2 focus:ring-primary text-white" placeholder="Ej: ana.garcia@correo.com">
+                            </div>
+                            <div>
+                                <label for="user_type" class="block text-lg font-semibold text-gray-300 mb-2">Soy...</label>
+                                <select id="user_type" name="user_type" required class="w-full px-4 py-3 bg-gray-700 border border-gray-600 rounded-lg focus:outline-none focus:ring-2 focus:ring-primary text-white">
+                                    <option value="" disabled selected>Selecciona una opción...</option>
+                                    <option value="usuario_final">Usuario final interesado</option>
+                                    <option value="familiar_cuidador">Familiar o cuidador</option>
+                                    <option value="profesional_terapeuta">Profesional o terapeuta</option>
+                                    <option value="organizacion">Organización o institución</option>
+                                    <option value="otro">Otro</option>
+                                </select>
+                            </div>
+                            <div class="text-center pt-4">
+                                <button type="submit" class="w-full md:w-auto bg-primary text-white font-bold py-4 px-12 rounded-full text-lg hover:bg-primary-dark transition-colors duration-300">
+                                    ¡Apúntame a la lista!
+                                </button>
+                            </div>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- =========== FOOTER CON LOGO =========== -->
+    <footer class="bg-gray-900 text-white">
+        <div class="container mx-auto px-6 py-8 text-center">
+            <!-- SVG del Logo Concepto 1 para el Footer (texto en blanco) -->
+            <div class="flex justify-center mb-6">
+                <svg class="h-14 w-auto" viewBox="0 0 250 70" xmlns="http://www.w3.org/2000/svg">
+                  <g transform="translate(10, 5) scale(0.9)">
+                    <path d="M35,5 C25,5 15,15 15,25 C15,35 25,55 35,55 C45,55 55,35 55,25 C55,15 45,5 35,5 Z M35,10 C42,10 50,18 50,25 C50,32 42,45 35,50 C28,45 20,32 20,25 C20,18 28,10 35,10 Z" fill="#3B82F6"/>
+                    <path d="M30 20 Q35 15 40 20" stroke="#FBBF24" stroke-width="3" fill="none" stroke-linecap="round"/>
+                    <circle cx="28" cy="30" r="3" fill="#3B82F6"/>
+                    <circle cx="42" cy="30" r="3" fill="#3B82F6"/>
+                    <path d="M30 40 Q35 45 40 40" stroke="#3B82F6" stroke-width="2" fill="none" stroke-linecap="round"/>
+                  </g>
+                  <text x="75" y="45" font-family="Poppins, sans-serif" font-size="24" font-weight="700" fill="#FFFFFF">
+                    Conecta Fácil
+                  </text>
+                </svg>
+            </div>
+            <p class="mb-4">Cerrando la brecha digital, una persona a la vez.</p>
+            <p class="text-gray-400">&copy; 2024 Conecta Fácil. Todos los derechos reservados.</p>
+            <p class="text-gray-500 mt-2">Contacto: <a href="mailto:ajcespedesi@gmail.com" class="underline hover:text-white">ajcespedesi@gmail.com</a></p>
+        </div>
+    </footer>
+
+</body>
+</html>
